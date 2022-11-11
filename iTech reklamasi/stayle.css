@@ -1,0 +1,135 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  .featurette-divider {
+    margin: 5rem 0; 
+  }
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  @media (min-width: 40em) {
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  /* --------------narxlar saxifasi---- ------------*/
+  body {
+    background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+  
+  .pricing-header {
+    max-width: 700px;
+  }
+  /*----------------- to'lov----------- */
+  .container {
+    max-width: 960px;
+  }
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }  
+  /* ----------dumoloq rasm qo'yish---------- */
+  .head-1{
+    background: url(./img/edu.jpg) center/cover no-repeat;
+    height: 55%;
+    width: 50%;
+    border-radius: 50%;
+  }
+  .head-2{
+    background: url(./img/photo_2022-06-22_14-31-53.jpg) center/cover no-repeat;
+    height: 55%;
+    width: 50%;
+    border-radius: 50%;
+  }
+  .head-3{
+    background: url(./img/head-3.jpg) center/cover no-repeat;
+    height: 55%;
+    width: 50%;
+    border-radius: 50%;
+  }
+  .pro1{
+    background: url(./img/fron.jpg) center/cover no-repeat;
+    height: 400px;
+    width: 400px;
+  }
+  .pro2{
+    background: url(./img/SMM.jpg) center/cover no-repeat;
+    height: 400px;
+    width: 400px;
+  }
+  .pro3{
+    background: url(./img/full.jpg) center/cover no-repeat;
+    height: 400px;
+    width: 400px;
+  }
+  .big1{
+    margin-top: 50px;
+  }

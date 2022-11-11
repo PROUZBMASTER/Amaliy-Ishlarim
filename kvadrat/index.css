@@ -1,0 +1,25 @@
+.div2{
+  width: 1000px;
+  height: 600px; 
+  border: 4px solid black; 
+  
+}
+.div .box{
+  height: 200px; 
+  width: 200px; 
+  border: 4px solid black;   
+}
+.div1 .box{
+  height: 200px; 
+  width: 200px; 
+  border: 4px solid black;   
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 185px;
+   }

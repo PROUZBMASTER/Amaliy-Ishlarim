@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./stayle.css">
+    <title>ITech</title>
+    <link href="carousel.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Kurslar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="narxlar.html">Narxlar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="to'lov.html">To'lov</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/programmer1.jpg" alt="">
+         <!--------- rasm bor----------- -->
+  
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1 style="color: rgb(249, 233, 203);">IT ga qiziqasizmi</h1>
+              <p style="color: rgb(249, 233, 203);"><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+         <img src="./img/programmer2.jpg" alt="">
+         <!-------------- 2- rasm------------- -->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 style="color: rgb(249, 233, 203);">Dasturchi bo'lmoqchimisiz</h1>
+              <p style="color: rgb(249, 233, 203);">Bizda ITning barcha turlari o'qitiladi</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/programmer3.jpg" alt="">
+          <!-- --------------3-ram-------------- -->
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1 style="color: rgb(249, 233, 203);">ITech</h1>
+              <p style="color: rgb(249, 233, 203); font-size: 30px;">Hamyonbob, online va ofline darslar mavjud.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container marketing">
+      <div class="row">
+        <div class="col-lg-4">
+            <div class="head-1 mx-auto" ></div>
+          <h2>INGILIZ TILI</h2>
+          <p>Bizning yana bir + tomonimiz bizda ingiliz tili ham qo'shib o'rgatiladi.</p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <div class="head-2 mx-auto">
+
+          </div>
+          <h2>Co-Working</h2>
+          <p>Bizda qo'shimchasiga yana maxsus Co-Working guruhimiz ham mavjud unda tushunmaga narsaylari so'rasaylar o'rgatib beradi.</p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <div class="head-3 mx-auto"></div>
+          <h2>Homework</h2>
+          <p>Qaysi guruhda o'qisangiz sizni a'lohida guruhiz bo'ladi unda barcha gurpadoshilar bo'ladi u guruhga video darslar taashalib boradi.</p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Fronted dasturlash <span class="text-muted">kurslari</span></h2>
+          <p class="lead">Frontend dasturchi foydalanuvchi browserda ko’rib turgan va u bilan bevosita amallar bajaradigan qismini yaratadi. Shu bilan birga, dizayner bergan web sahifa yoki ilovalani dizaynini kodga otkazadi, hamda backenddan ma’lumotlarni qabul qiladi va backendga ma’lumotlarni yuboradi.</p>
+        </div>
+        <div class="pro1 mx-auto">
+
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">SMM-Social Media Marketing<span class="text-muted">kurslari</span></h2>
+          <p class="lead">SMM menejer, ijtimoiy platformalar orqali ommani jalb qilish bo'yicha mutaxassis bo'lib, qisqa vaqt ichida Facebook, Instagram, Telegram kabi mashhur ijtimoiy tarmoqlarda jonli trafikka ega bo'ladi</p>
+        </div>
+        <div class="pro2"></div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Full-Stack. <span class="text-muted">kurslari</span></h2>
+          <p class="lead">Full - stack dasturlash o'z ichiga front - end va backend qismlarni qamrab oladi..</p>
+        </div>
+        <div class="pro3"></div>
+      </div>
+      <hr class="featurette-divider">
+    </div>
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy;IT Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+  </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>     
